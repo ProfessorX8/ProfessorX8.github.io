@@ -1,0 +1,1047 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/cover.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Alexander Zhang">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="本文是为本学期量子力学专题研讨课准备的讲义，此前的一些知识内容由另一位同学讲述，故本文并不是一篇适合阅读的文章。发在博客上主要是尝试一下使用Pandoc将latex转换为md后的效果，事实表明对一些相对复杂的公式支持并不好。 Brief introduction to Kraus OSR Page23 整个系统被分为bath、system两部分，分别使用下标S、B表示，无下标的量对应整个系">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Examples of Lindblad equation">
+<meta property="og:url" content="http://example.com/2023/08/01/Examples-of-Lindblad-equation/index.html">
+<meta property="og:site_name" content="Dasein">
+<meta property="og:description" content="本文是为本学期量子力学专题研讨课准备的讲义，此前的一些知识内容由另一位同学讲述，故本文并不是一篇适合阅读的文章。发在博客上主要是尝试一下使用Pandoc将latex转换为md后的效果，事实表明对一些相对复杂的公式支持并不好。 Brief introduction to Kraus OSR Page23 整个系统被分为bath、system两部分，分别使用下标S、B表示，无下标的量对应整个系">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-08-01T09:58:29.000Z">
+<meta property="article:modified_time" content="2023-09-29T02:04:11.209Z">
+<meta property="article:author" content="Alexander Zhang">
+<meta property="article:tag" content="Physics">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>Examples of Lindblad equation - Dasein</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.5-a","typing":{"enable":true,"typeSpeed":50,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":"dcae28fbe1c97337c0f63fb32f538618","google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"XeC26xb8m3U9GocQYm6L5Aw7-MdYXbMMI","app_key":"MYQ9lY8gnnlo1JeFN5jzVETE","server_url":null,"path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+  
+    <!-- Baidu Analytics -->
+    <script async>
+      if (!Fluid.ctx.dnt) {
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?dcae28fbe1c97337c0f63fb32f538618";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+      }
+    </script>
+  
+
+  
+    <!-- Google tag (gtag.js) -->
+    <script async>
+      if (!Fluid.ctx.dnt) {
+        Fluid.utils.createScript("https://www.googletagmanager.com/gtag/js?id=", function() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', '');
+        });
+      }
+    </script>
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Dasein" type="application/atom+xml">
+</head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Professor.X</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Examples of Lindblad equation"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-08-01 17:58" pubdate>
+          August 1, 2023 pm
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          9.7k words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          20 mins
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="leancloud-page-views"></span> views
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">Examples of Lindblad equation</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>本文是为本学期量子力学专题研讨课准备的讲义，此前的一些知识内容由另一位同学讲述，故本文并不是一篇适合阅读的文章。发在博客上主要是尝试一下使用Pandoc将latex转换为md后的效果，事实表明对一些相对复杂的公式支持并不好。</p>
+<h1 id="brief-introduction-to-kraus-osr">Brief introduction to Kraus
+OSR</h1>
+<p>Page23</p>
+<p>整个系统被分为bath、system两部分，分别使用下标S、B表示，无下标的量对应整个系统（在不引起混淆的情况下，有时会省略S的下标）</p>
+<p>最一般的系统演化可用酉算符<span
+class="math inline">\(U(t)=e^{iHt}\)</span>表示为<span
+class="math inline">\(\rho(t)=U(t)\rho(0)U^{\dagger}(t)\)</span>。对于bath的初态，我们可以进行谱分解$<em>B(0)=</em>_
+</p>
+<pre><code class="hljs">\langle \nu \rvert$，$\lambda_\nu$对应了初态处于该态的概率，注意这里我们假定取的$\lvert \nu \rangle$是正交归一的（由之前的讨论，我们知道总能找到一组合适的基底实现）。</code></pre>
+<p>我们关注的system的演化对应了对B取偏迹：<span
+class="math inline">\(\rho_S(t)=Tr_B[(\rho(t))]\)</span>，于是我们可以得到表达式：
+<span
+class="math display">\[\rho_S(t)=Tr_B[\rho(t)=U(t)\rho(0)U^{\dagger}(t)]=\sum_\mu
+    \langle \mu \rvert
+U(t)\rho(0)U^{\dagger}(t)
+    \lvert \mu \rangle\]</span></p>
+同之前一样，我们假定初态是解耦的<span
+class="math inline">\(\rho(0)=\rho_S(0)\otimes
+\rho_B(0)\)</span>，则上式可改写为 $$
+<span class="math display">\[\begin{aligned}
+    \rho_S(t) &amp;=\sum_\mu
+    \langle \mu \rvert
+[U(t)\rho_S(0)\otimes (\sum_\nu \lambda_\nu
+    \lvert \nu \rangle
+
+    \langle \nu \rvert
+)U^{\dagger}(t)]
+    \lvert \mu \rangle
+\\
+        &amp;=\sum_{\mu\nu}\sqrt{\lambda_\nu}
+    \langle \mu \rvert U(t) \lvert \nu \rangle
+_B\rho_S(0)\sqrt{\lambda_\nu}
+    \langle \nu \rvert U^\dagger(t) \lvert \mu \rangle
+_B
+        =:\sum_{\mu \nu}K_{\mu\nu}(t)\rho_S(t)K_{\mu\nu}^\dagger(t)
+\end{aligned}\]</span>
+<p>$$ 其中，<span
+class="math inline">\(K_{\mu\nu}(t):=\sqrt{\lambda_\nu}  \langle \mu
+\rvert U(t) \lvert \nu \rangle _B\)</span>，称为Kraus
+operator。注意此处内积仅仅是对bath空间的部分，做完内积之后，我们剩下的仍是算符，该算符仅作用在system空间上。（这正是我们研究开放量子系统的思路，把外界的影响"打包"，只关注系统本身的空间）</p>
+<p>使用Kraus operator描述系统演化的表现我们称为Kraus Operator Sum
+Represntation(OSR)，上述我们写出的形式，有着和薛定谔方程一样的地位（为简单，以下直接称该方程为薛定谔方程）：
+<span
+class="math display">\[\rho_S(t)=\sum_{\mu\nu}K_{\mu\nu}(t)\rho_S(0)K_{\mu\nu}^\dagger(t)\]</span></p>
+<p>不难验证，Kraus operator满足性质 <span
+class="math inline">\(\sum_{\mu\nu}K^\dagger_{\mu\nu}(t)K_{\mu\nu}(t)=I\)</span></p>
+<p>从另一个角度，我们可以粗暴地把上述薛定谔方程中对初态<span
+class="math inline">\(\rho(0)\)</span>的作用看作一个映射<span
+class="math inline">\(\Phi\)</span>，即<span
+class="math inline">\(\rho(t)=\Phi[\rho(0)]\)</span>，那么由此前我们熟知的一些性质，可以导出这个抽象的映射必须满足某些性质，在此简单列出，我们后面并不会用到这些性质，不详细推导，细节可见讲义：</p>
+<div class="compactenum">
+<p>Trace preserving: <span
+class="math inline">\(Tr[\Phi(\rho)]=Tr[\rho]\)</span></p>
+<p>Linear</p>
+<p>Positivity：将正定的算符映到正定算符（密度矩阵可以看作算符）</p>
+<p>上一条可以加强为Complete
+Positivity：和任意维数的恒等算符做直积得到的<span
+class="math inline">\(\Phi\otimes
+I^{(k)}\)</span>，仍具有Positivity。</p>
+</div>
+<p>性质3和4的区别在初看时很难看出，讲义26页给出了一个反例，有兴趣的同学可以阅读。另一方面，定理给出（Page26），满足上述性质（1、2、4）的映射，都可以有一个Kraus
+operator sum represntation</p>
+<p>该讲义中还提到过一个有意思的概念：Non-selective
+Measurement，即我们对一个系统进行测量，但不去读出它的结果<del>（那我岂不是测量了个寂寞？）</del>。这一过程与不进行测量的区别在于，<del>我们知道我们真的做了测量</del>，在测量之后，系统被投影到所测物理量算符的本征态，稍加思考我们便可以注意到，这将会把一个叠加的纯态转变为混态！</p>
+<h1 id="a-simpler-derivation-of-lindblad-equation">A Simpler Derivation
+of Lindblad Equation</h1>
+<p>简单介绍了Kraus
+operator的理论后，我们可以用泰勒展开简单地推导Lindblad
+Equation，该部分步骤请直接参考讲义45--47页<del>（懒得敲了）</del>。在此仅列出一些新的参量的关系式备用。
+<span class="math display">\[K_0=I+L_0dt\]</span> <span
+class="math display">\[K_\alpha=L_\alpha\sqrt{dt},\quad \alpha \ge
+1\]</span> <span
+class="math display">\[\text{对算符$L_0$的厄米和反厄米部分分解，其中A、H均为厄米算符，H被称为哈密顿量:}L_0=A-iH\]</span>
+<span class="math display">\[A=-\frac{1}{2}\sum_{\alpha\ge
+1}L^\dagger_\alpha L_\alpha\]</span> <span
+class="math display">\[\frac{\mathrm{d}^{}\rho}{\mathrm{d}t^{}}
+=-i[H,\rho(t)]+\sum_{\alpha\ge
+1}\gamma_\alpha(L_\alpha\rho(t)L^\dagger_\alpha-\frac{1}{2}\{L^\dagger_\alpha
+L_\alpha,\rho(0)\})\]</span></p>
+<h1 id="example-single-qubit">Example: Single Qubit</h1>
+<p>Page18,49</p>
+<p>我们考虑仅有一个qubit的系统，在应用Lindblad
+Equation之前，我们需要先介绍一个研究该问题的十分简单的视角。</p>
+<p>Qubit指二态量子系统，其希尔伯特空间 <span
+class="math inline">\(\mathcal{H}=\mathbb{C}^2=span\{  \lvert 0 \rangle
+,  \lvert 1 \rangle \}\)</span>，其中的密度矩阵形如： <span
+class="math display">\[\rho =
+    \begin{bmatrix}
+    a &amp; b \\
+    c &amp; d \\
+    \end{bmatrix}\]</span>
+由密度矩阵的性质(迹为1、厄米)，这四个参量满足一定约束，最终只有三个自由度，具有如下形式：
+<span class="math display">\[\rho=
+    \begin{bmatrix}
+        a &amp; b \\
+        b^* &amp; 1-a \\
+    \end{bmatrix}
+    \quad a\in \mathbb{R},b\in \mathbb{C}\]</span></p>
+<p>利用我们熟悉的Pauli矩阵： <span
+class="math display">\[\sigma_1=\sigma_x=X=
+    \begin{bmatrix}
+        0 &amp; 1 \\
+        1 &amp; 0 \\
+    \end{bmatrix}
+    \quad
+    \sigma_2=\sigma_y=Y=
+    \begin{bmatrix}
+        0 &amp; -i \\
+        i &amp; 0 \\
+    \end{bmatrix}
+    \quad
+    \sigma_3=\sigma_z=Z=
+    \begin{bmatrix}
+        1 &amp; 0 \\
+        0 &amp; -1 \\
+    \end{bmatrix}\]</span> 并引入<span
+class="math inline">\(\sigma_0=I\)</span>为单位阵，则密度矩阵的表达式可完全对应以下形式：
+<span
+class="math display">\[\rho=\frac{1}{2}(I+\sum_{i=1}^3v_i\sigma_i)=\frac{1}{2}(I+\vec{v}\cdot\vec{\sigma})=\frac{1}{2}
+\begin{bmatrix}
+    1+v_z &amp; v_x-iv_y \\
+    v_x+iv_y &amp; 1-v_z \\
+\end{bmatrix}\]</span> 利用密度矩阵迹为1，本征值非负，有约束条件<span
+class="math inline">\(\Vert \vec{v} \Vert \le
+1\)</span>，这样的矢量对应了一个球体，即<em>Block
+sphere</em>。注意到，由上述表达式，<span
+class="math inline">\(Tr[\rho^2]=\frac{1}{2}(1+\Vert \vec{v}
+\Vert^2)\)</span>利用<span
+class="math inline">\(Tr[\rho^2]=1\)</span>作为纯态判据可以发现，球面上的态为纯态，而球体内的态为混态。在密度矩阵上作用算符，相当于对球体（上的每一个矢量）进行一定的操作，从而可以得到一定的几何直观。</p>
+<p>介绍完该几何角度，我们回到对Lindblad
+equation（以下简称LE）的应用，在这个例子中，我们取<span
+class="math inline">\(\gamma_\alpha=0 \quad \forall
+\alpha\)</span>，此时LE退化为<span
+class="math inline">\(\dot{\rho}=-i[H,\rho]\)</span>，H的一般形式可写为<span
+class="math inline">\(H=h_0I+\sum_ih_i\sigma_i=h_0I+\vec{h}\cdot\vec{\sigma}\)</span>，代入计算对易关系：
+<span
+class="math display">\[-i[H,\rho]=-\frac{i}{2}\sum_ih_i[\sigma_i,\vec{v}\cdot\vec{\sigma}]=-\frac{i}{2}\sum_{i,j}h_iv_j[\sigma_i,\sigma_j]=\sum_{i,j,k}\epsilon_{ijk}h_iv_j\sigma_k=(\vec{h}\times\vec{v})\cdot
+\vec{\sigma}\]</span> 由于<span
+class="math inline">\(\vec{\sigma}\)</span>为常量，<span
+class="math inline">\(\rho\)</span>的导数可改写为<span
+class="math inline">\(\dot{\rho}=\frac{1}{2}\dot{\vec{v}}\cdot\vec{\sigma}\)</span>，代入上式的左侧可得：
+<span
+class="math display">\[\dot{\vec{v}}\cdot\vec{\sigma}=2(\vec{h}\times\vec{v})\cdot
+\vec{\sigma}\]</span> 将上式拆分为三个标量方程即可得到关于<span
+class="math inline">\(v_x,v_y,v_z\)</span>的方程组，称为<em>Bloch
+equations</em>。可以验证，其解为<span
+class="math inline">\(\vec{v}\)</span>绕轴<span
+class="math inline">\(\vec{h}\)</span>以频率<span
+class="math inline">\(2\Vert
+\vec{h}\Vert\)</span>转动。（一个不严谨的看法：和<span
+class="math inline">\(\vec{\sigma}\)</span>内积相等直接推出矢量相等）</p>
+<h1 id="example-phase-damping">Example: Phase Damping</h1>
+<p>Page35,49</p>
+<p>上一个例子过于平凡，以至于它看起来完全可以在我们熟悉的封闭系统的框架内解决，接下来我们看一个稍微"复杂"一点的例子。</p>
+<p>取<span class="math inline">\(L_1=\sigma_z=Z,\quad
+\gamma_1=\gamma,\quad \gamma_{\alpha\ge 2}=0,\quad
+H=0\)</span>，代入LE得： <span
+class="math display">\[\frac{1}{2}\dot{\vec{v}}\cdot\vec{\sigma}=\dot{\rho(t)}=\gamma(Z\rho
+Z^\dagger-\frac{1}{2}\{Z^\dagger Z\rho\})=\gamma(Z\rho Z-\rho)\]</span>
+注意到<span class="math inline">\(Z\rho
+Z=\frac{1}{2}(I-v_xX-v_yY+v_zZ)\)</span>，将上式中各参量展开可得： <span
+class="math display">\[\frac{1}{2}(\dot{v}_xX+\dot{v}_yY+\dot{v}_zZ)=-\gamma(v_xX+v_yY)\]</span>
+由各参量对应相等可得：</p>
+<p><span class="math display">\[\begin{aligned}
+    \dot{v}_x=-2\gamma v_x &amp;\Rightarrow v_x(t)=v_x(0)e^{-2\gamma t}
+\\
+    \dot{v}_y=-2\gamma v_y &amp;\Rightarrow v_y(t)=v_y(0)e^{-2\gamma t}
+\\
+    \dot{v}_z=0 &amp;\Rightarrow v_z(t)=v_z(0)
+\end{aligned}\]</span></p>
+<p>在<span
+class="math inline">\(\gamma&gt;0\)</span>时，x、y方向随时间增大而指数衰减，z方向保持不变，这对应于将整个Bloch
+sphere以z轴为中心进行收缩。若我们抛弃假定<span
+class="math inline">\(H=0\)</span>，则与上一个例子类似，球体在收缩的同时还会绕某轴转动。</p>
+<h1 id="example-amplitude-dampingspontaneous-emission">Example:
+Amplitude damping/Spontaneous Emission</h1>
+<p>Page36,50</p>
+<p>取$L_1=^-= </p>
+<pre><code class="hljs">\langle 1 \rvert</code></pre>
+<p>=(<sup>+)</sup><em>1=</em>{}=0 H=0$，代入LE得： $$==(<sup>-</sup>+
+-{<sup>+</sup>-,})=( </p>
+<pre><code class="hljs">\langle 1 \rvert</code></pre>
+<p> </p>
+<pre><code class="hljs">\langle 0 \rvert</code></pre>
+<p>-{ </p>
+<pre><code class="hljs">\langle 0 \vert 0 \rangle
+
+\langle 1 \rvert</code></pre>
+,})<span class="math display">\[
+利用展开式$\rho=\frac{1}{2}(I+\vec{v}\cdot\vec{\sigma})$，上式可化为
+\]</span>=(Z-v_xX-v_yY-v_zZ)<span class="math display">\[
+仍利用对应项相等，可得： \]</span>
+<span class="math display">\[\begin{aligned}
+    \dot{v}_x=-\frac{1}{2}v_x &amp;\Rightarrow
+v_x(t)=v_x(0)e^{-\frac{\gamma t}{2}}\\
+    \dot{v}_y=-\frac{1}{2}v_y &amp;\Rightarrow
+v_y(t)=v_y(0)e^{-\frac{\gamma t}{2}}\\
+    \dot{v}_z=-\gamma(v_z-1) &amp;\Rightarrow
+v_z(t)=1+(v_z(0)-1)e^{-\gamma t}
+\end{aligned}\]</span>
+<p>$$ 除了x、y方向发生收缩外，z轴也逐渐收缩到z=1处，系统终态为$ </p>
+<pre><code class="hljs">\langle 0 \rvert$</code></pre>
+<h1 id="example-spin-boson-model-for-phase-damping">Example: Spin-boson
+Model for Phase Damping</h1>
+<p>前面的例子都是直接给出了LE中的各L算子，而我们最希望看的情况是，直接给出一个具有物理意义的哈密顿量，我们要如何写出算子的形式呢？我们在这个例子中将进行实际的运算。（当然，这注定是一个十分痛苦的过程。）</p>
+<p>在介绍该部分之前，我们需要简答介绍一下编时算子：</p>
+<p>在哈密顿量含时时，不同时刻的哈密顿量可能会出现不对易的状况，此时我们如果还是希望直接将演化写成积分<span
+class="math inline">\(\int
+e^{-iH(t)t}\)</span>就需要指定这些指数相乘的次序，以免内部胡乱对易冒出奇奇怪怪的结果，于是我们引入了编时算子，告诉它计算时要按照时间演化的顺序依次相乘：<span
+class="math inline">\(T_+\int e^{-iH(t)t}\)</span></p>
+<p>现在，我们跟着讲义的第十章推导含时作用下的LE方程。</p>
+<h2 id="方程导出">方程导出</h2>
+<p>首先，我们选取<span
+class="math inline">\(\mathcal{H}_S\)</span>中算符的一组基底<span
+class="math inline">\(\{F_i\}_{i=0}^{d_S^2-1}\)</span>，并规定<span
+class="math inline">\(F_0=I\)</span>，并用这组基底展开Kraus
+operator，得到展开式<span class="math inline">\(K_\alpha(t)=\sum_i
+b_{i\alpha}(t)F_i\)</span>。此时薛定谔方程化为<span
+class="math inline">\(\rho(t)=\sum_{ij}
+\chi_{ij}(t)F_i\rho(0)F_j^\dagger\)</span>，其中<span
+class="math inline">\(\chi_{ij}=\sum_\alpha
+b_{i\alpha}(t)b_{j\alpha}^{*}(t)\)</span>。由于我们特别规定了<span
+class="math inline">\(F_0=I\)</span>，我们将含有指标0的项单独列出，以进行化简。
+<span
+class="math display">\[\rho(t)=\chi_{00}(t)\rho(0)+\sum_{i&gt;0}(\chi_{0i}(t)\rho(0)F_i^\dagger+\chi_{i0}(t)F_i\rho(0))+\sum_{i,j&gt;0}\chi_{ij}(t)F_i\rho(0)F_j^\dagger\]</span>
+由Kraus operator的归一化关系: <span class="math display">\[I=\sum_\alpha
+K^\dagger_\alpha(t)
+K_\alpha(t)=\sum_{ij}\chi_{ij}F^\dagger_jF_i=\chi_{00}(t)+\sum_{i&gt;0}(\chi_{0i}(t)F_i^\dagger+\chi_{i0}(t)F_i)+\sum_{i,j&gt;0}\chi_{ij}(t)F_j^\dagger
+F_i\]</span> 适当的变换给出： <span
+class="math display">\[\rho(t)-\rho(0)=\frac{1}{2}\sum_{i&gt;0}((\chi_{i0}F_i\rho(0)-\chi_{0i}F_i^\dagger\rho(0))-(\chi_{i0}\rho(0)F_i-\chi_{0i}\rho(0)F_i^\dagger))+\sum_{i,j&gt;0}\chi_{ij}(t)(F_i\rho(0)F_j^\dagger-\frac{1}{2}\{F_j^\dagger
+F_i,\rho(0)\})\]</span> 我们定义新的参量<span
+class="math inline">\(Q(t)=\frac{i}{2}\sum_{j&gt;0}(\chi_{j0}F_j-\chi_{0j}F_j^\dagger)\)</span>，注意到这是一个厄米算符，则上式可改写为
+<span
+class="math display">\[\rho(t)-\rho(0)=-i[Q(t),\rho(0)]+\sum_{i,j&gt;0}\chi_{ij}(t)(F_i\rho(0)F_j^\dagger-\frac{1}{2}\{F_j^\dagger
+F_i,\rho(0)\})\]</span> 开始时，<span
+class="math inline">\(\{F_i\}\)</span>只是我们任意选取的一组基底，现在我们要求选取使得<span
+class="math inline">\(\chi_{ij}\)</span>被对角化的基底（注意到<span
+class="math inline">\(\chi=bb^\dagger\)</span>，可以被对角化），设变换矩阵为u，新的一组基底为<span
+class="math inline">\(\{L_i\}\)</span>，则有关系<span
+class="math inline">\(L_k=\sum_{j&gt;0}u_{kj}^*F_j\)</span>，可以验证，在这样的变换下，我们刚刚推出的方程形式不变，只需把所有的F换为L即可。</p>
+<p>现在我们得到的方程在形式上已经十分接近LE了，为了能够得到LE，我们需要开始作出一些近似。整体思路是，分成以<span
+class="math inline">\(\tau\)</span>为间隔的小时段，将系统的演化再次离散化"打包"，并假定一些好的性质以便于操作，细节可以看讲义Page51--53，我们直接给出最后得到的方程：
+<span class="math display">\[\dot{\rho(t)}=-i[\langle \dot{Q}
+\rangle_0,\rho(t)]+\sum_{k&gt;0}\langle
+\dot{\gamma_k}\rangle_0(L_k\rho(0)L_k^\dagger-\frac{1}{2}\{L_k^\dagger
+L_k,\rho(0)\})\]</span> 其中，<span
+class="math inline">\(\gamma\)</span>为<span
+class="math inline">\(\chi_{ij}\)</span>对角化后的对角元素，符号<span
+class="math inline">\(\langle\dot{A}\rangle_0:=\frac{A(\tau)-A(0)}{\tau}\)</span>，特别地，可以推导出<span
+class="math inline">\(Q(0)=0\quad \gamma_k(0)=\delta_{k0}\)</span></p>
+<p>最后，为了计算方便，我们将上述方程转化到我们上节课讨论过的相互作用表象下，在此仅列出最后的结果和一些基本关系式：
+<span class="math display">\[H(t)=(H_S+H_B)+H_{SB}\]</span> <span
+class="math display">\[\frac{\mathrm{d}^{}U(t)}{\mathrm{d}t^{}}
+=-iH(t)U(t)\]</span> <span
+class="math display">\[\frac{\mathrm{d}^{}U_0(t)}{\mathrm{d}t^{}}
+=-i(H_S+H_B)U_0(t)\Rightarrow U_0=e^{-iH_St}\otimes e^{-iH_Bt}\]</span>
+<span class="math display">\[\tilde{U}(t):=U_0^\dagger(t)U(t)\]</span>
+<span
+class="math display">\[\frac{\mathrm{d}^{}\tilde{U}(t)}{\mathrm{d}t^{}}
+=-i\tilde{H}(t)\tilde{U}(t)\qquad
+\tilde{H}(t)=U^\dagger_0(t)V(t)U_0(t)\]</span> <span
+class="math display">\[\tilde{\rho}_{SB}(t):=\tilde{U}(t)\rho_{SB}(0)\tilde{U}^\dagger(t)\qquad
+\tilde{\rho}(t)=\sum_\alpha\tilde{K}_\alpha(t)\rho(0)\tilde{K}_\alpha^\dagger(t)\]</span>
+<span class="math display">\[\dot{\tilde{\rho}}(t)=-i[\langle
+\dot{\tilde{Q}} \rangle_0,\tilde{\rho}(t)]+\sum_{k&gt;0}\langle
+\dot{\tilde{\gamma}}_k\rangle_0(L_k\tilde{\rho}(0)L_k^\dagger-\frac{1}{2}\{L_k^\dagger
+L_k,\tilde{\rho}(0)\})\qquad \tilde{Q}=Q-H_S\]</span></p>
+<h2 id="例题计算">例题计算</h2>
+<p>给定哈密顿量：<span class="math inline">\(H_S=-\frac{1}{2}gZ,\quad
+H_B=\sum_k\omega_k(n_k+\frac{1}{2}),\quad H_{SB}=Z\otimes
+(\sum_k\lambda_ka_k+\lambda_k^*a_k^\dagger)\)</span> 其中，<span
+class="math inline">\(a_k\)</span>、<span
+class="math inline">\(a_k^\dagger\)</span>是我们熟悉的湮灭和产生算符，<span
+class="math inline">\(n_k=a_k^\dagger a_k\)</span>。利用表达式<span
+class="math inline">\(x=\frac{a+a^\dagger}{\sqrt{2m\omega}}\)</span>，可以得到<span
+class="math inline">\(\lambda_k\propto\frac{1}{\sqrt{\omega_k}}\)</span></p>
+<p>由此，我们计算出在相互作用表象下的哈密顿量为 <span
+class="math display">\[\tilde{H}_{SB}(t)=Z\otimes (\sum_k\lambda_k
+e^{-i\omega_kt}a_k+\lambda^*_ke^{i\omega_kt}a^\dagger_k)\]</span></p>
+<p>假定bath的初态为Thermal Gibbs state：
+$$<em>B(0)=e^{-H_B}=</em>{}<sup>e</sup>{-E_} </p>
+<pre><code class="hljs">\langle \nu \rvert</code></pre>
+<p>=:<em>{}^</em> </p>
+<pre><code class="hljs">\langle \nu \rvert$$</code></pre>
+<p>则可以计算出： <span class="math display">\[\langle a^\dagger_k a_l
+\rangle_B=\frac{\delta_{kl}}{e^{\beta \omega_k}-1},\qquad \langle
+a^\dagger_k\rangle_B=\langle a_k\rangle_B=\langle
+a_ka_l\rangle_B=\langle a^\dagger_ka^\dagger_l\rangle_B=0\]</span></p>
+<p>最终得到LE方程的形式为: <span
+class="math display">\[\dot{\tilde{\rho}}(t)=\gamma(t)(Z\tilde{\rho}(t)Z-\tilde{\rho}(t))\]</span></p>
+<p>这个<del>妹妹</del>LE方程好像在哪里见过？历尽千辛万苦，我们终于回到了Phase
+damping的例子！</p>
+<p>事实上，这个模型可以精确求解，具体内容有兴趣的同学可以阅读第十一章（友情提醒：开始就会碰到Dyson级数）</p>
+<h1 id="reference">Reference</h1>
+<p>除本次讨论课原计划使用的<em>Lecture Notes on the Theory of Open
+Quantum Systems</em>外，在准备过程中还参考了以下来源的资料：</p>
+<div class="compactenum">
+<p>总是给出错误回答但可以告诉我该搜索什么关键词的ChatGPT</p>
+<p>对于含时哈密顿量，其演化算符的表达式中要出现编时算符（如下图），那什么情况下，编时算符可以去掉呢？
+- 東雲正樹的回答 - 知乎
+https://www.zhihu.com/question/544556580/answer/2591618680</p>
+<p>有序积分 - 单纯猫的文章 - 知乎
+https://zhuanlan.zhihu.com/p/574925885</p>
+</div>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/Physics/" class="print-no-link">#Physics</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Examples of Lindblad equation</div>
+      <div>http://example.com/2023/08/01/Examples-of-Lindblad-equation/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>Alexander Zhang</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>August 1, 2023</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2023/08/01/A-classical-derivation-of-BEC/" title="A classical derivation of BEC">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">A classical derivation of BEC</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/07/29/%E5%9B%9E%E5%AE%B6/" title="回家">
+                        <span class="hidden-mobile">回家</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+  <div class="disqus" style="width:100%">
+    <div id="disqus_thread"></div>
+    
+      <script type="text/javascript">
+        var disqus_config = function() {
+          this.page.url = 'http://example.com/2023/08/01/Examples-of-Lindblad-equation/';
+          this.page.identifier = '/2023/08/01/Examples-of-Lindblad-equation/';
+        };
+        Fluid.utils.loadComments('#disqus_thread', function() {
+          var d = document, s = d.createElement('script');
+          s.src = '//' + 'dasein-1' + '.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', new Date());
+          (d.head || d.body).appendChild(s);
+        });
+      </script>
+    
+    <noscript>Please enable JavaScript to view the comments</noscript>
+  </div>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>Table of Contents</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
+
+  <script defer src="/js/leancloud.js" ></script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>

@@ -293,9 +293,9 @@ everyone. This itself would lead you to people who can</summary>
     
     
     
-    <category term="读记" scheme="http://example.com/tags/%E8%AF%BB%E8%AE%B0/"/>
-    
     <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="读记" scheme="http://example.com/tags/%E8%AF%BB%E8%AE%B0/"/>
     
   </entry>
   
