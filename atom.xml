@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-01T14:39:13.118Z</updated>
+  <updated>2023-10-03T03:04:02.963Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《查令十字街84号》</title>
+    <link href="http://example.com/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%E5%8D%81%E5%AD%97%E8%A1%9784%E5%8F%B7%E3%80%8B/"/>
+    <id>http://example.com/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%E5%8D%81%E5%AD%97%E8%A1%9784%E5%8F%B7%E3%80%8B/</id>
+    <published>2023-10-02T13:25:26.000Z</published>
+    <updated>2023-10-03T03:04:02.963Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在《&lt;a
+href=&quot;https://www.skyue.com/23093023.html/comment-page-1#comment-3070&quot;&gt;南山公园与查令十字街84号&lt;/a&gt;》这篇博客中，我才知道原来另一位博主的名字取自一本书名。地址作为书名十分能引起人的好奇心，也会让人不由想起福尔摩斯的“贝克街221b”，遂找来这篇简短的书，不到一天把它读完了——用几个小时的阅读，走过了几个</summary>
+        
+      
+    
+    
+    
+    
+    <category term="读记，人生" scheme="http://example.com/tags/%E8%AF%BB%E8%AE%B0%EF%BC%8C%E4%BA%BA%E7%94%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>《在美国钓鳟鱼》</title>
@@ -140,9 +164,9 @@ Robert</summary>
     
     
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
-    
     <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
