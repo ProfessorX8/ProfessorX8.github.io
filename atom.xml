@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-03T12:35:13.526Z</updated>
+  <updated>2023-10-03T12:36:38.867Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2023/10/03/%E6%91%98%E6%8A%84-1-1/"/>
     <id>http://example.com/2023/10/03/%E6%91%98%E6%8A%84-1-1/</id>
     <published>2023-10-03T12:35:13.000Z</published>
-    <updated>2023-10-03T12:35:13.526Z</updated>
+    <updated>2023-10-03T12:36:38.867Z</updated>
     
     
       
@@ -36,9 +36,9 @@ href=&quot;https://professorx8.github.io/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%
     
     
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
-    
     <category term="摘抄" scheme="http://example.com/tags/%E6%91%98%E6%8A%84/"/>
+    
+    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
@@ -47,7 +47,7 @@ href=&quot;https://professorx8.github.io/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%
     <link href="http://example.com/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%E5%8D%81%E5%AD%97%E8%A1%9784%E5%8F%B7%E3%80%8B/"/>
     <id>http://example.com/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%E5%8D%81%E5%AD%97%E8%A1%9784%E5%8F%B7%E3%80%8B/</id>
     <published>2023-10-02T13:25:26.000Z</published>
-    <updated>2023-10-03T03:04:02.963Z</updated>
+    <updated>2023-10-06T05:45:19.901Z</updated>
     
     
       
@@ -62,7 +62,9 @@ href=&quot;https://www.skyue.com/23093023.html/comment-page-1#comment-3070&quot;
     
     
     
-    <category term="读记，人生" scheme="http://example.com/tags/%E8%AF%BB%E8%AE%B0%EF%BC%8C%E4%BA%BA%E7%94%9F/"/>
+    <category term="读记" scheme="http://example.com/tags/%E8%AF%BB%E8%AE%B0/"/>
+    
+    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
@@ -162,9 +164,9 @@ href=&quot;https://www.javis.me/zmjdzydh/&quot;&gt;查令十字街84号分店的
     
     <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="爱情" scheme="http://example.com/tags/%E7%88%B1%E6%83%85/"/>
-    
     <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="爱情" scheme="http://example.com/tags/%E7%88%B1%E6%83%85/"/>
     
   </entry>
   
@@ -190,9 +192,9 @@ Robert</summary>
     
     
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
-    
     <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
@@ -417,9 +419,9 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     
     
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
-    
     <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
