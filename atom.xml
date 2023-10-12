@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-03T12:36:38.867Z</updated>
+  <updated>2023-10-12T14:50:01.577Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《活下去的理由》</title>
+    <link href="http://example.com/2023/10/12/%E3%80%8A%E6%B4%BB%E4%B8%8B%E5%8E%BB%E7%9A%84%E7%90%86%E7%94%B1%E3%80%8B/"/>
+    <id>http://example.com/2023/10/12/%E3%80%8A%E6%B4%BB%E4%B8%8B%E5%8E%BB%E7%9A%84%E7%90%86%E7%94%B1%E3%80%8B/</id>
+    <published>2023-10-12T13:33:35.000Z</published>
+    <updated>2023-10-12T14:50:01.577Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;又是从&lt;a
+href=&quot;https://www.javis.me/ghdrvotpya/&quot;&gt;查令十字街84号分店的博客&lt;/a&gt;看到的一本书，被其评价为“这本书的文字是一把精美冷冽的手术刀，解剖自我的同时也会刺伤他人”。坦白说，我未能理解这句话的含义。于我而言，这本书是精神状态体验的共鸣与抑郁症的“预防针”。&lt;/p&gt;
+&lt;p&gt;《活下去的理由》作为一个患过抑郁症的作家的独白，虽然其中所提到的一</summary>
+        
+      
+    
+    
+    
+    
+    <category term="读记" scheme="http://example.com/tags/%E8%AF%BB%E8%AE%B0/"/>
+    
+    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="爱情" scheme="http://example.com/tags/%E7%88%B1%E6%83%85/"/>
+    
+  </entry>
   
   <entry>
     <title>摘抄(-1)</title>
@@ -114,9 +143,9 @@ href=&quot;https://www.javis.me/zmjdzydh/&quot;&gt;查令十字街84号分店的
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -162,9 +191,9 @@ href=&quot;https://www.javis.me/zmjdzydh/&quot;&gt;查令十字街84号分店的
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
     <category term="爱情" scheme="http://example.com/tags/%E7%88%B1%E6%83%85/"/>
     
@@ -245,9 +274,9 @@ not going to give you a couple of</summary>
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -320,9 +349,9 @@ everyone. This itself would lead you to people who can</summary>
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -500,32 +529,6 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     
     
     <category term="摘抄" scheme="http://example.com/tags/%E6%91%98%E6%8A%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>“寻找”还是“遇到”？</title>
-    <link href="http://example.com/2023/07/27/%E5%AF%BB%E6%89%BE%E8%BF%98%E6%98%AF%E9%81%87%E5%88%B0/"/>
-    <id>http://example.com/2023/07/27/%E5%AF%BB%E6%89%BE%E8%BF%98%E6%98%AF%E9%81%87%E5%88%B0/</id>
-    <published>2023-07-27T00:32:39.000Z</published>
-    <updated>2023-07-27T01:36:03.697Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;em&gt;本文引用内容于2022.11.1发布于校内论坛，建立博客后进行搬运&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;写这些文字的起因是，有位同学在论坛上说：</summary>
-        
-      
-    
-    
-    
-    
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
-    
-    <category term="爱情" scheme="http://example.com/tags/%E7%88%B1%E6%83%85/"/>
     
   </entry>
   
