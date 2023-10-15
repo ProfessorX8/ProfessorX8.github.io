@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-12T14:50:01.577Z</updated>
+  <updated>2023-10-15T07:21:27.431Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>何处心安</title>
+    <link href="http://example.com/2023/10/15/%E4%BD%95%E5%A4%84%E5%BF%83%E5%AE%89/"/>
+    <id>http://example.com/2023/10/15/%E4%BD%95%E5%A4%84%E5%BF%83%E5%AE%89/</id>
+    <published>2023-10-15T07:21:27.000Z</published>
+    <updated>2023-10-15T07:21:27.431Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1</summary>
+        
+      
+    
+    
+    
+    
+    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>《活下去的理由》</title>
@@ -65,9 +90,9 @@ href=&quot;https://professorx8.github.io/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%
     
     
     
-    <category term="摘抄" scheme="http://example.com/tags/%E6%91%98%E6%8A%84/"/>
-    
     <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="摘抄" scheme="http://example.com/tags/%E6%91%98%E6%8A%84/"/>
     
   </entry>
   
@@ -191,11 +216,11 @@ href=&quot;https://www.javis.me/zmjdzydh/&quot;&gt;查令十字街84号分店的
     
     
     
+    <category term="爱情" scheme="http://example.com/tags/%E7%88%B1%E6%83%85/"/>
+    
     <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
     
     <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="爱情" scheme="http://example.com/tags/%E7%88%B1%E6%83%85/"/>
     
   </entry>
   
@@ -221,9 +246,9 @@ Robert</summary>
     
     
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
-    
     <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
@@ -448,9 +473,9 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -504,31 +529,6 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     
     
     <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>摘抄(0)</title>
-    <link href="http://example.com/2023/07/27/%E6%91%98%E6%8A%84(0)/"/>
-    <id>http://example.com/2023/07/27/%E6%91%98%E6%8A%84(0)/</id>
-    <published>2023-07-27T02:17:48.000Z</published>
-    <updated>2023-07-27T03:16:10.287Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;本文用于整理建站前曾发布在各社交平台的名言摘录与思考。&lt;/p&gt;
-&lt;h1 id=&quot;知乎&quot;&gt;知乎&lt;/h1&gt;
-&lt;ol</summary>
-        
-      
-    
-    
-    
-    
-    <category term="摘抄" scheme="http://example.com/tags/%E6%91%98%E6%8A%84/"/>
     
   </entry>
   
