@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Dasein</title>
-  <icon>http://example.com/cover.png</icon>
+  <icon>https://professorx8.github.io/cover.png</icon>
   <subtitle>Blog of Professor.X</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://professorx8.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://professorx8.github.io/"/>
   <updated>2023-10-15T07:32:06.967Z</updated>
-  <id>http://example.com/</id>
+  <id>https://professorx8.github.io/</id>
   
   <author>
     <name>Alexander Zhang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>何处心安</title>
-    <link href="http://example.com/2023/10/15/%E4%BD%95%E5%A4%84%E5%BF%83%E5%AE%89/"/>
-    <id>http://example.com/2023/10/15/%E4%BD%95%E5%A4%84%E5%BF%83%E5%AE%89/</id>
+    <link href="https://professorx8.github.io/2023/10/15/%E4%BD%95%E5%A4%84%E5%BF%83%E5%AE%89/"/>
+    <id>https://professorx8.github.io/2023/10/15/%E4%BD%95%E5%A4%84%E5%BF%83%E5%AE%89/</id>
     <published>2023-10-15T07:21:27.000Z</published>
     <updated>2023-10-15T07:32:06.967Z</updated>
     
@@ -35,16 +35,16 @@
     
     
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
   <entry>
     <title>《活下去的理由》</title>
-    <link href="http://example.com/2023/10/12/%E3%80%8A%E6%B4%BB%E4%B8%8B%E5%8E%BB%E7%9A%84%E7%90%86%E7%94%B1%E3%80%8B/"/>
-    <id>http://example.com/2023/10/12/%E3%80%8A%E6%B4%BB%E4%B8%8B%E5%8E%BB%E7%9A%84%E7%90%86%E7%94%B1%E3%80%8B/</id>
+    <link href="https://professorx8.github.io/2023/10/12/%E3%80%8A%E6%B4%BB%E4%B8%8B%E5%8E%BB%E7%9A%84%E7%90%86%E7%94%B1%E3%80%8B/"/>
+    <id>https://professorx8.github.io/2023/10/12/%E3%80%8A%E6%B4%BB%E4%B8%8B%E5%8E%BB%E7%9A%84%E7%90%86%E7%94%B1%E3%80%8B/</id>
     <published>2023-10-12T13:33:35.000Z</published>
     <updated>2023-10-12T14:50:01.577Z</updated>
     
@@ -62,18 +62,18 @@ href=&quot;https://www.javis.me/ghdrvotpya/&quot;&gt;查令十字街84号分店�
     
     
     
-    <category term="读记" scheme="http://example.com/tags/%E8%AF%BB%E8%AE%B0/"/>
+    <category term="读记" scheme="https://professorx8.github.io/tags/%E8%AF%BB%E8%AE%B0/"/>
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
-    <category term="爱情" scheme="http://example.com/tags/%E7%88%B1%E6%83%85/"/>
+    <category term="爱情" scheme="https://professorx8.github.io/tags/%E7%88%B1%E6%83%85/"/>
     
   </entry>
   
   <entry>
     <title>摘抄(-1)</title>
-    <link href="http://example.com/2023/10/03/%E6%91%98%E6%8A%84-1-1/"/>
-    <id>http://example.com/2023/10/03/%E6%91%98%E6%8A%84-1-1/</id>
+    <link href="https://professorx8.github.io/2023/10/03/%E6%91%98%E6%8A%84-1-1/"/>
+    <id>https://professorx8.github.io/2023/10/03/%E6%91%98%E6%8A%84-1-1/</id>
     <published>2023-10-03T12:35:13.000Z</published>
     <updated>2023-10-03T12:36:38.867Z</updated>
     
@@ -90,16 +90,16 @@ href=&quot;https://professorx8.github.io/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%
     
     
     
-    <category term="摘抄" scheme="http://example.com/tags/%E6%91%98%E6%8A%84/"/>
+    <category term="摘抄" scheme="https://professorx8.github.io/tags/%E6%91%98%E6%8A%84/"/>
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
   <entry>
     <title>《查令十字街84号》</title>
-    <link href="http://example.com/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%E5%8D%81%E5%AD%97%E8%A1%9784%E5%8F%B7%E3%80%8B/"/>
-    <id>http://example.com/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%E5%8D%81%E5%AD%97%E8%A1%9784%E5%8F%B7%E3%80%8B/</id>
+    <link href="https://professorx8.github.io/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%E5%8D%81%E5%AD%97%E8%A1%9784%E5%8F%B7%E3%80%8B/"/>
+    <id>https://professorx8.github.io/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%E5%8D%81%E5%AD%97%E8%A1%9784%E5%8F%B7%E3%80%8B/</id>
     <published>2023-10-02T13:25:26.000Z</published>
     <updated>2023-10-06T05:45:19.901Z</updated>
     
@@ -116,16 +116,16 @@ href=&quot;https://www.skyue.com/23093023.html/comment-page-1#comment-3070&quot;
     
     
     
-    <category term="读记" scheme="http://example.com/tags/%E8%AF%BB%E8%AE%B0/"/>
+    <category term="读记" scheme="https://professorx8.github.io/tags/%E8%AF%BB%E8%AE%B0/"/>
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
   <entry>
     <title>《在美国钓鳟鱼》</title>
-    <link href="http://example.com/2023/10/01/%E3%80%8A%E5%9C%A8%E7%BE%8E%E5%9B%BD%E9%92%93%E9%B3%9F%E9%B1%BC%E3%80%8B/"/>
-    <id>http://example.com/2023/10/01/%E3%80%8A%E5%9C%A8%E7%BE%8E%E5%9B%BD%E9%92%93%E9%B3%9F%E9%B1%BC%E3%80%8B/</id>
+    <link href="https://professorx8.github.io/2023/10/01/%E3%80%8A%E5%9C%A8%E7%BE%8E%E5%9B%BD%E9%92%93%E9%B3%9F%E9%B1%BC%E3%80%8B/"/>
+    <id>https://professorx8.github.io/2023/10/01/%E3%80%8A%E5%9C%A8%E7%BE%8E%E5%9B%BD%E9%92%93%E9%B3%9F%E9%B1%BC%E3%80%8B/</id>
     <published>2023-10-01T13:57:31.000Z</published>
     <updated>2023-10-01T14:39:13.118Z</updated>
     
@@ -143,14 +143,14 @@ href=&quot;https://www.javis.me/zmjdzydh/&quot;&gt;查令十字街84号分店的
     
     
     
-    <category term="读记" scheme="http://example.com/tags/%E8%AF%BB%E8%AE%B0/"/>
+    <category term="读记" scheme="https://professorx8.github.io/tags/%E8%AF%BB%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>节日与仪式</title>
-    <link href="http://example.com/2023/09/29/%E8%8A%82%E6%97%A5%E4%B8%8E%E4%BB%AA%E5%BC%8F/"/>
-    <id>http://example.com/2023/09/29/%E8%8A%82%E6%97%A5%E4%B8%8E%E4%BB%AA%E5%BC%8F/</id>
+    <link href="https://professorx8.github.io/2023/09/29/%E8%8A%82%E6%97%A5%E4%B8%8E%E4%BB%AA%E5%BC%8F/"/>
+    <id>https://professorx8.github.io/2023/09/29/%E8%8A%82%E6%97%A5%E4%B8%8E%E4%BB%AA%E5%BC%8F/</id>
     <published>2023-09-29T00:33:28.000Z</published>
     <updated>2023-09-29T01:56:32.934Z</updated>
     
@@ -168,16 +168,16 @@ href=&quot;https://www.javis.me/zmjdzydh/&quot;&gt;查令十字街84号分店的
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
   <entry>
     <title>随想(2)</title>
-    <link href="http://example.com/2023/09/28/%E9%9A%8F%E6%83%B3-2/"/>
-    <id>http://example.com/2023/09/28/%E9%9A%8F%E6%83%B3-2/</id>
+    <link href="https://professorx8.github.io/2023/09/28/%E9%9A%8F%E6%83%B3-2/"/>
+    <id>https://professorx8.github.io/2023/09/28/%E9%9A%8F%E6%83%B3-2/</id>
     <published>2023-09-28T05:15:14.000Z</published>
     <updated>2023-09-28T05:15:14.978Z</updated>
     
@@ -193,14 +193,14 @@ href=&quot;https://www.javis.me/zmjdzydh/&quot;&gt;查令十字街84号分店的
     
     
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
   <entry>
     <title>秋日漫谈</title>
-    <link href="http://example.com/2023/09/24/%E7%A7%8B%E6%97%A5%E6%BC%AB%E8%B0%88/"/>
-    <id>http://example.com/2023/09/24/%E7%A7%8B%E6%97%A5%E6%BC%AB%E8%B0%88/</id>
+    <link href="https://professorx8.github.io/2023/09/24/%E7%A7%8B%E6%97%A5%E6%BC%AB%E8%B0%88/"/>
+    <id>https://professorx8.github.io/2023/09/24/%E7%A7%8B%E6%97%A5%E6%BC%AB%E8%B0%88/</id>
     <published>2023-09-24T02:10:08.000Z</published>
     <updated>2023-09-29T02:03:16.625Z</updated>
     
@@ -216,18 +216,18 @@ href=&quot;https://www.javis.me/zmjdzydh/&quot;&gt;查令十字街84号分店的
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
-    <category term="爱情" scheme="http://example.com/tags/%E7%88%B1%E6%83%85/"/>
+    <category term="爱情" scheme="https://professorx8.github.io/tags/%E7%88%B1%E6%83%85/"/>
     
   </entry>
   
   <entry>
     <title>政治性抑郁</title>
-    <link href="http://example.com/2023/09/14/%E6%94%BF%E6%B2%BB%E6%80%A7%E6%8A%91%E9%83%81/"/>
-    <id>http://example.com/2023/09/14/%E6%94%BF%E6%B2%BB%E6%80%A7%E6%8A%91%E9%83%81/</id>
+    <link href="https://professorx8.github.io/2023/09/14/%E6%94%BF%E6%B2%BB%E6%80%A7%E6%8A%91%E9%83%81/"/>
+    <id>https://professorx8.github.io/2023/09/14/%E6%94%BF%E6%B2%BB%E6%80%A7%E6%8A%91%E9%83%81/</id>
     <published>2023-09-14T08:32:53.000Z</published>
     <updated>2023-09-14T08:37:33.371Z</updated>
     
@@ -246,16 +246,16 @@ Robert</summary>
     
     
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
   <entry>
     <title>摘抄(1)</title>
-    <link href="http://example.com/2023/09/10/%E6%91%98%E6%8A%84-1/"/>
-    <id>http://example.com/2023/09/10/%E6%91%98%E6%8A%84-1/</id>
+    <link href="https://professorx8.github.io/2023/09/10/%E6%91%98%E6%8A%84-1/"/>
+    <id>https://professorx8.github.io/2023/09/10/%E6%91%98%E6%8A%84-1/</id>
     <published>2023-09-10T03:07:01.000Z</published>
     <updated>2023-09-10T03:14:45.359Z</updated>
     
@@ -274,14 +274,14 @@ not going to give you a couple of</summary>
     
     
     
-    <category term="摘抄" scheme="http://example.com/tags/%E6%91%98%E6%8A%84/"/>
+    <category term="摘抄" scheme="https://professorx8.github.io/tags/%E6%91%98%E6%8A%84/"/>
     
   </entry>
   
   <entry>
     <title>闲聊军训</title>
-    <link href="http://example.com/2023/08/29/%E9%97%B2%E8%81%8A%E5%86%9B%E8%AE%AD/"/>
-    <id>http://example.com/2023/08/29/%E9%97%B2%E8%81%8A%E5%86%9B%E8%AE%AD/</id>
+    <link href="https://professorx8.github.io/2023/08/29/%E9%97%B2%E8%81%8A%E5%86%9B%E8%AE%AD/"/>
+    <id>https://professorx8.github.io/2023/08/29/%E9%97%B2%E8%81%8A%E5%86%9B%E8%AE%AD/</id>
     <published>2023-08-29T05:57:17.000Z</published>
     <updated>2023-08-29T05:57:17.417Z</updated>
     
@@ -299,16 +299,16 @@ not going to give you a couple of</summary>
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
   <entry>
     <title>我们如何交流？</title>
-    <link href="http://example.com/2023/08/19/%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BA%A4%E6%B5%81%EF%BC%9F/"/>
-    <id>http://example.com/2023/08/19/%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BA%A4%E6%B5%81%EF%BC%9F/</id>
+    <link href="https://professorx8.github.io/2023/08/19/%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BA%A4%E6%B5%81%EF%BC%9F/"/>
+    <id>https://professorx8.github.io/2023/08/19/%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E4%BA%A4%E6%B5%81%EF%BC%9F/</id>
     <published>2023-08-19T10:50:30.000Z</published>
     <updated>2023-09-29T00:58:20.447Z</updated>
     
@@ -324,14 +324,14 @@ not going to give you a couple of</summary>
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>随想(1)</title>
-    <link href="http://example.com/2023/08/17/%E9%9A%8F%E6%83%B3-1/"/>
-    <id>http://example.com/2023/08/17/%E9%9A%8F%E6%83%B3-1/</id>
+    <link href="https://professorx8.github.io/2023/08/17/%E9%9A%8F%E6%83%B3-1/"/>
+    <id>https://professorx8.github.io/2023/08/17/%E9%9A%8F%E6%83%B3-1/</id>
     <published>2023-08-17T13:36:49.000Z</published>
     <updated>2023-08-17T13:36:49.033Z</updated>
     
@@ -350,14 +350,14 @@ everyone. This itself would lead you to people who can</summary>
     
     
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
   <entry>
     <title>“时代的一粒灰”</title>
-    <link href="http://example.com/2023/08/14/%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%80%E7%B2%92%E7%81%B0/"/>
-    <id>http://example.com/2023/08/14/%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%80%E7%B2%92%E7%81%B0/</id>
+    <link href="https://professorx8.github.io/2023/08/14/%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%80%E7%B2%92%E7%81%B0/"/>
+    <id>https://professorx8.github.io/2023/08/14/%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%80%E7%B2%92%E7%81%B0/</id>
     <published>2023-08-14T13:06:26.000Z</published>
     <updated>2023-09-29T00:55:38.434Z</updated>
     
@@ -374,16 +374,16 @@ everyone. This itself would lead you to people who can</summary>
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
   <entry>
     <title>《安娜卡列尼娜》</title>
-    <link href="http://example.com/2023/08/10/%E3%80%8A%E5%AE%89%E5%A8%9C%E5%8D%A1%E5%88%97%E5%B0%BC%E5%A8%9C%E3%80%8B/"/>
-    <id>http://example.com/2023/08/10/%E3%80%8A%E5%AE%89%E5%A8%9C%E5%8D%A1%E5%88%97%E5%B0%BC%E5%A8%9C%E3%80%8B/</id>
+    <link href="https://professorx8.github.io/2023/08/10/%E3%80%8A%E5%AE%89%E5%A8%9C%E5%8D%A1%E5%88%97%E5%B0%BC%E5%A8%9C%E3%80%8B/"/>
+    <id>https://professorx8.github.io/2023/08/10/%E3%80%8A%E5%AE%89%E5%A8%9C%E5%8D%A1%E5%88%97%E5%B0%BC%E5%A8%9C%E3%80%8B/</id>
     <published>2023-08-10T13:09:54.000Z</published>
     <updated>2023-10-01T14:06:16.725Z</updated>
     
@@ -399,16 +399,16 @@ everyone. This itself would lead you to people who can</summary>
     
     
     
-    <category term="读记" scheme="http://example.com/tags/%E8%AF%BB%E8%AE%B0/"/>
+    <category term="读记" scheme="https://professorx8.github.io/tags/%E8%AF%BB%E8%AE%B0/"/>
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
   <entry>
     <title>A classical derivation of BEC</title>
-    <link href="http://example.com/2023/08/01/A-classical-derivation-of-BEC/"/>
-    <id>http://example.com/2023/08/01/A-classical-derivation-of-BEC/</id>
+    <link href="https://professorx8.github.io/2023/08/01/A-classical-derivation-of-BEC/"/>
+    <id>https://professorx8.github.io/2023/08/01/A-classical-derivation-of-BEC/</id>
     <published>2023-08-01T10:11:38.000Z</published>
     <updated>2023-09-29T02:04:03.111Z</updated>
     
@@ -426,14 +426,14 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     
     
     
-    <category term="Physics" scheme="http://example.com/tags/Physics/"/>
+    <category term="Physics" scheme="https://professorx8.github.io/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>Examples of Lindblad equation</title>
-    <link href="http://example.com/2023/08/01/Examples-of-Lindblad-equation/"/>
-    <id>http://example.com/2023/08/01/Examples-of-Lindblad-equation/</id>
+    <link href="https://professorx8.github.io/2023/08/01/Examples-of-Lindblad-equation/"/>
+    <id>https://professorx8.github.io/2023/08/01/Examples-of-Lindblad-equation/</id>
     <published>2023-08-01T09:58:29.000Z</published>
     <updated>2023-09-29T02:04:11.209Z</updated>
     
@@ -450,14 +450,14 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     
     
     
-    <category term="Physics" scheme="http://example.com/tags/Physics/"/>
+    <category term="Physics" scheme="https://professorx8.github.io/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>回家</title>
-    <link href="http://example.com/2023/07/29/%E5%9B%9E%E5%AE%B6/"/>
-    <id>http://example.com/2023/07/29/%E5%9B%9E%E5%AE%B6/</id>
+    <link href="https://professorx8.github.io/2023/07/29/%E5%9B%9E%E5%AE%B6/"/>
+    <id>https://professorx8.github.io/2023/07/29/%E5%9B%9E%E5%AE%B6/</id>
     <published>2023-07-29T08:36:06.000Z</published>
     <updated>2023-07-29T09:47:54.249Z</updated>
     
@@ -473,16 +473,16 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
   <entry>
     <title>为什么写博客</title>
-    <link href="http://example.com/2023/07/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://example.com/2023/07/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://professorx8.github.io/2023/07/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://professorx8.github.io/2023/07/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/</id>
     <published>2023-07-28T01:04:42.000Z</published>
     <updated>2023-07-28T02:04:48.077Z</updated>
     
@@ -500,14 +500,14 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     
     
     
-    <category term="人生" scheme="http://example.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
   <entry>
     <title>随想(0)</title>
-    <link href="http://example.com/2023/07/27/%E9%9A%8F%E6%83%B3(0)/"/>
-    <id>http://example.com/2023/07/27/%E9%9A%8F%E6%83%B3(0)/</id>
+    <link href="https://professorx8.github.io/2023/07/27/%E9%9A%8F%E6%83%B3(0)/"/>
+    <id>https://professorx8.github.io/2023/07/27/%E9%9A%8F%E6%83%B3(0)/</id>
     <published>2023-07-27T02:36:33.000Z</published>
     <updated>2023-07-27T03:21:19.198Z</updated>
     
@@ -528,7 +528,7 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     
     
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
