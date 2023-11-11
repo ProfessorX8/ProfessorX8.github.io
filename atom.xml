@@ -6,7 +6,7 @@
   <link href="https://professorx8.github.io/atom.xml" rel="self"/>
   
   <link href="https://professorx8.github.io/"/>
-  <updated>2023-10-22T00:37:42.950Z</updated>
+  <updated>2023-11-11T14:54:58.088Z</updated>
   <id>https://professorx8.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大剧院</title>
+    <link href="https://professorx8.github.io/2023/11/11/%E5%A4%A7%E5%89%A7%E9%99%A2/"/>
+    <id>https://professorx8.github.io/2023/11/11/%E5%A4%A7%E5%89%A7%E9%99%A2/</id>
+    <published>2023-11-11T14:54:58.000Z</published>
+    <updated>2023-11-11T14:54:58.088Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;自从知道了国家大剧院学生票100封顶，而且在开场前90分钟可以用学生票价买正常余票后，它成了我生活中为数不多的额外开销。自9.15至今日，共看了3场演出，两场勃拉姆斯和一场美国芭蕾舞团的《吉赛尔》，也成功打卡了4个厅中的3个，或许再找个机会去一次戏剧场后，就不怎么去了。&lt;/p&gt;
+&lt;p&gt;坦白而言，我不是一个很有艺术天赋的人，练了几年吉他却依旧分不清音高、掌握不好节奏；也不是一个喜欢听现场的人</summary>
+        
+      
+    
+    
+    
+    
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>小记(1)</title>
@@ -503,31 +531,6 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
     <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为什么写博客</title>
-    <link href="https://professorx8.github.io/2023/07/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://professorx8.github.io/2023/07/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/</id>
-    <published>2023-07-28T01:04:42.000Z</published>
-    <updated>2023-07-28T02:04:48.077Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在公共社交平台高度发达的当下，自己建一个几乎没有人会看的博客似乎是一件不可理喻的事，需要被一堆技术问题困扰，也不及在社交平台上发布方便，这也正是我此前放弃建站的一个主要原因。&lt;/p&gt;
-&lt;p&gt;借着刚完成建站的兴奋劲，我尝试回顾究竟是什么坚定了我这次建站的决心。很快，我找到了一个不见得正确但很可以说服自己的答案：&lt;strong&gt;分享欲&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;去年年底在放开前夕的隔</summary>
-        
-      
-    
-    
-    
-    
-    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
