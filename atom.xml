@@ -6,7 +6,7 @@
   <link href="https://professorx8.github.io/atom.xml" rel="self"/>
   
   <link href="https://professorx8.github.io/"/>
-  <updated>2023-11-11T14:54:58.088Z</updated>
+  <updated>2023-11-13T11:13:46.178Z</updated>
   <id>https://professorx8.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>摘抄(2)</title>
+    <link href="https://professorx8.github.io/2023/11/13/%E6%91%98%E6%8A%84-2/"/>
+    <id>https://professorx8.github.io/2023/11/13/%E6%91%98%E6%8A%84-2/</id>
+    <published>2023-11-13T11:13:46.000Z</published>
+    <updated>2023-11-13T11:13:46.178Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol</summary>
+        
+      
+    
+    
+    
+    
+    <category term="摘抄" scheme="https://professorx8.github.io/tags/%E6%91%98%E6%8A%84/"/>
+    
+  </entry>
   
   <entry>
     <title>大剧院</title>
@@ -145,9 +168,9 @@ href=&quot;https://professorx8.github.io/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%
     
     
     
-    <category term="摘抄" scheme="https://professorx8.github.io/tags/%E6%91%98%E6%8A%84/"/>
-    
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="摘抄" scheme="https://professorx8.github.io/tags/%E6%91%98%E6%8A%84/"/>
     
   </entry>
   
@@ -506,31 +529,6 @@ class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底�
     
     
     <category term="Physics" scheme="https://professorx8.github.io/tags/Physics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>回家</title>
-    <link href="https://professorx8.github.io/2023/07/29/%E5%9B%9E%E5%AE%B6/"/>
-    <id>https://professorx8.github.io/2023/07/29/%E5%9B%9E%E5%AE%B6/</id>
-    <published>2023-07-29T08:36:06.000Z</published>
-    <updated>2023-07-29T09:47:54.249Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;中学时，每周最期待的事就是回家：周六的下午，夕阳的光辉撒在走廊里的行李箱上，下课后记下作业，从抽屉里摸出周末要用的习题册，码放在桌子上再收进包里，和同学互相吹捧着谁又提前写完了多少作业可以爽玩一个周末，在欢笑声与万向轮的隆隆声响中，走向校门，寻找拥堵的车流中熟悉的号码。那时的周末，虽有作业的烦恼，但到家之后最先做的事还是锁上房门开始玩手机：恶补追更的网络小说这周更新的章节、看看关注的up主又</summary>
-        
-      
-    
-    
-    
-    
-    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
-    
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
