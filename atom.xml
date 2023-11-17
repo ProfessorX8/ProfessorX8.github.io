@@ -6,7 +6,7 @@
   <link href="https://professorx8.github.io/atom.xml" rel="self"/>
   
   <link href="https://professorx8.github.io/"/>
-  <updated>2023-11-13T11:21:26.803Z</updated>
+  <updated>2023-11-17T13:01:29.709Z</updated>
   <id>https://professorx8.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>邀请函——穿过标签与隔阂，我们重识、拥抱彼此</title>
+    <link href="https://professorx8.github.io/2023/11/17/%E9%82%80%E8%AF%B7%E5%87%BD%E2%80%94%E2%80%94%E7%A9%BF%E8%BF%87%E6%A0%87%E7%AD%BE%E4%B8%8E%E9%9A%94%E9%98%82%EF%BC%8C%E6%88%91%E4%BB%AC%E9%87%8D%E8%AF%86%E3%80%81%E6%8B%A5%E6%8A%B1%E5%BD%BC%E6%AD%A4/"/>
+    <id>https://professorx8.github.io/2023/11/17/%E9%82%80%E8%AF%B7%E5%87%BD%E2%80%94%E2%80%94%E7%A9%BF%E8%BF%87%E6%A0%87%E7%AD%BE%E4%B8%8E%E9%9A%94%E9%98%82%EF%BC%8C%E6%88%91%E4%BB%AC%E9%87%8D%E8%AF%86%E3%80%81%E6%8B%A5%E6%8A%B1%E5%BD%BC%E6%AD%A4/</id>
+    <published>2023-11-17T13:01:29.000Z</published>
+    <updated>2023-11-17T13:01:29.709Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;font color=&quot;&quot; size=5 face=&quot;&quot;&gt;敬启者：&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt; &lt;font color=&quot;&quot; size=5 face=&quot;&quot;&gt;展信佳。&lt;/font&gt;&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>摘抄(2)</title>
@@ -296,9 +323,9 @@ href=&quot;https://www.javis.me/zmjdzydh/&quot;&gt;查令十字街84号分店的
     
     <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
-    <category term="爱情" scheme="https://professorx8.github.io/tags/%E7%88%B1%E6%83%85/"/>
-    
     <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="爱情" scheme="https://professorx8.github.io/tags/%E7%88%B1%E6%83%85/"/>
     
   </entry>
   
@@ -498,30 +525,6 @@ everyone. This itself would lead you to people who can</summary>
     <summary type="html">&lt;p&gt;在讲义上推导巨配分函数时（注：此处指本学期热统课程老师的自编讲义），有一步推导中，我们自然假定了配分函数Z以&lt;span
 class=&quot;math inline&quot;&gt;&#92;(&#92;frac{V}{N}&#92;)&lt;/span&gt;为底，以N为幂次迅速增大。这一说法是不严谨的，因为这个表达式是量纲依赖的，我们需要把动量部分也放进来实现无量纲化。
 &lt;span class=&quot;math</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Physics" scheme="https://professorx8.github.io/tags/Physics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Examples of Lindblad equation</title>
-    <link href="https://professorx8.github.io/2023/08/01/Examples-of-Lindblad-equation/"/>
-    <id>https://professorx8.github.io/2023/08/01/Examples-of-Lindblad-equation/</id>
-    <published>2023-08-01T09:58:29.000Z</published>
-    <updated>2023-09-29T02:04:11.209Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;本文是为本学期量子力学专题研讨课准备的讲义，此前的一些知识内容由另一位同学讲述，故本文并不是一篇适合阅读的文章。发在博客上主要是尝试一下使用Pandoc将latex转换为md后的效果，事实表明对一些相对复杂的公式支持并不好。&lt;/p&gt;
-&lt;h1 id=&quot;brief-introduction-to-kraus-osr&quot;&gt;Brief introduction to</summary>
         
       
     
