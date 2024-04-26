@@ -6,7 +6,7 @@
   <link href="https://professorx8.github.io/atom.xml" rel="self"/>
   
   <link href="https://professorx8.github.io/"/>
-  <updated>2024-04-26T04:53:25.870Z</updated>
+  <updated>2024-04-26T04:55:52.426Z</updated>
   <id>https://professorx8.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://professorx8.github.io/2024/04/25/%E8%81%8C%E4%B8%9A%E9%80%89%E6%8B%A9/"/>
     <id>https://professorx8.github.io/2024/04/25/%E8%81%8C%E4%B8%9A%E9%80%89%E6%8B%A9/</id>
     <published>2024-04-26T04:53:25.000Z</published>
-    <updated>2024-04-26T04:53:25.870Z</updated>
+    <updated>2024-04-26T04:55:52.426Z</updated>
     
     
       
@@ -64,9 +64,9 @@
     
     
     
-    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    
     <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
@@ -91,11 +91,11 @@
     
     
     
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
     <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -219,9 +219,9 @@
     
     
     
-    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    
     <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
@@ -327,9 +327,9 @@
     
     
     
-    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
-    
     <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
@@ -376,11 +376,11 @@
     
     
     
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
     <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
