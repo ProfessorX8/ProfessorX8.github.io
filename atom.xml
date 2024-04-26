@@ -6,7 +6,7 @@
   <link href="https://professorx8.github.io/atom.xml" rel="self"/>
   
   <link href="https://professorx8.github.io/"/>
-  <updated>2024-03-18T22:03:11.699Z</updated>
+  <updated>2024-04-26T04:53:25.870Z</updated>
   <id>https://professorx8.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>职业选择</title>
+    <link href="https://professorx8.github.io/2024/04/25/%E8%81%8C%E4%B8%9A%E9%80%89%E6%8B%A9/"/>
+    <id>https://professorx8.github.io/2024/04/25/%E8%81%8C%E4%B8%9A%E9%80%89%E6%8B%A9/</id>
+    <published>2024-04-26T04:53:25.000Z</published>
+    <updated>2024-04-26T04:53:25.870Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1</summary>
+        
+      
+    
+    
+    
+    
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>何以称为中国人</title>
@@ -39,9 +64,9 @@
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -66,11 +91,11 @@
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
     <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
-    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -168,9 +193,9 @@
     
     
     
-    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
@@ -194,9 +219,9 @@
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -302,9 +327,9 @@
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -351,11 +376,11 @@
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
     <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
-    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -405,9 +430,9 @@
     
     
     
-    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
@@ -460,9 +485,9 @@ href=&quot;https://professorx8.github.io/2023/10/02/%E3%80%8A%E6%9F%A5%E4%BB%A4%
     
     
     
-    <category term="摘抄" scheme="https://professorx8.github.io/tags/%E6%91%98%E6%8A%84/"/>
-    
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="摘抄" scheme="https://professorx8.github.io/tags/%E6%91%98%E6%8A%84/"/>
     
   </entry>
   
@@ -514,33 +539,6 @@ href=&quot;https://www.javis.me/zmjdzydh/&quot;&gt;查令十字街84号分店的
     
     
     <category term="读记" scheme="https://professorx8.github.io/tags/%E8%AF%BB%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>节日与仪式</title>
-    <link href="https://professorx8.github.io/2023/09/29/%E8%8A%82%E6%97%A5%E4%B8%8E%E4%BB%AA%E5%BC%8F/"/>
-    <id>https://professorx8.github.io/2023/09/29/%E8%8A%82%E6%97%A5%E4%B8%8E%E4%BB%AA%E5%BC%8F/</id>
-    <published>2023-09-29T15:33:28.000Z</published>
-    <updated>2023-09-29T01:56:32.934Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;我时常觉得对事物认知水平的发展层次是：肯定→否定→不置可否。所谓“不置可否”，指的是能看到其背后种种的合理因素，也能看到其存在的缺陷与矛盾，以一种坦然平和的心态去看待，也可以说是一种“否定之否定”。&lt;/p&gt;
-&lt;p&gt;不过，似乎我从小便对节日不感兴趣，直接就进入了否定的阶段（笑）。&lt;/p&gt;
-&lt;p&gt;对于儿时的我来说，过节就是被家长拽着跑到各个亲戚家里去，挨个串门拜访，大人们在聊着各种各样的事情</summary>
-        
-      
-    
-    
-    
-    
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
