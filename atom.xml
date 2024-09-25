@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Dasein</title>
   <icon>https://professorx8.github.io/cover.png</icon>
-  <subtitle>Blog of Professor.X, feedId:56209566184184925+userId:60629561067579392</subtitle>
+  <subtitle>A site for knowledge and thoughts</subtitle>
   <link href="https://professorx8.github.io/atom.xml" rel="self"/>
   
   <link href="https://professorx8.github.io/"/>
