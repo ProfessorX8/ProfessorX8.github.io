@@ -6,7 +6,7 @@
   <link href="https://professorx8.github.io/atom.xml" rel="self"/>
   
   <link href="https://professorx8.github.io/"/>
-  <updated>2026-05-25T07:58:52.036Z</updated>
+  <updated>2026-09-18T14:11:34.492Z</updated>
   <id>https://professorx8.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随想(4)</title>
+    <link href="https://professorx8.github.io/2026/09/18/%E9%9A%8F%E6%83%B3-4/"/>
+    <id>https://professorx8.github.io/2026/09/18/%E9%9A%8F%E6%83%B3-4/</id>
+    <published>2026-09-18T14:11:34.000Z</published>
+    <updated>2026-09-18T14:11:34.492Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol</summary>
+        
+      
+    
+    
+    
+    
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>摘抄（3）</title>
@@ -146,11 +169,11 @@
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
-    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -207,9 +230,9 @@ href=&quot;https://space.bilibili.com/286737038&quot;&gt;十七岁歌手想打�
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -259,9 +282,9 @@ href=&quot;https://sspai.com/post/104040&quot;&gt;写在 PicGo 即将</summary>
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -285,11 +308,11 @@ href=&quot;https://sspai.com/post/104040&quot;&gt;写在 PicGo 即将</summary>
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
-    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -391,11 +414,11 @@ href=&quot;https://sspai.com/post/104040&quot;&gt;写在 PicGo 即将</summary>
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
-    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -450,9 +473,9 @@ href=&quot;https://sspai.com/post/104040&quot;&gt;写在 PicGo 即将</summary>
     
     
     
-    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
-    
     <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
@@ -475,9 +498,9 @@ href=&quot;https://sspai.com/post/104040&quot;&gt;写在 PicGo 即将</summary>
     
     
     
-    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
-    
     <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
   </entry>
   
@@ -504,9 +527,9 @@ href=&quot;https://sspai.com/post/104040&quot;&gt;写在 PicGo 即将</summary>
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
     <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -531,37 +554,11 @@ href=&quot;https://sspai.com/post/104040&quot;&gt;写在 PicGo 即将</summary>
     
     
     
-    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
     <category term="人生" scheme="https://professorx8.github.io/tags/%E4%BA%BA%E7%94%9F/"/>
     
-    <category term="随想" scheme="https://professorx8.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《二手时间》</title>
-    <link href="https://professorx8.github.io/2024/02/16/%E3%80%8A%E4%BA%8C%E6%89%8B%E6%97%B6%E9%97%B4%E3%80%8B/"/>
-    <id>https://professorx8.github.io/2024/02/16/%E3%80%8A%E4%BA%8C%E6%89%8B%E6%97%B6%E9%97%B4%E3%80%8B/</id>
-    <published>2024-02-16T14:39:32.000Z</published>
-    <updated>2024-02-17T06:39:34.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;em&gt;这是一本应当在人群中、阳光下读的书，不然会被孤独、黑暗、绝望压得喘不过气来。只有在这种闲暇的美好时刻，我们才有能力去共情他们的生活。&lt;/em&gt;
-——2023.12.6&lt;/p&gt;
-&lt;p&gt;这本书是之前逛推上图书推荐时偶然遇到的，介绍说其记录了苏联解体后人们的生活，在那种理想破灭之后的生活。
-当时正在迷茫中的我（当然，现在依旧在迷茫），想通过阅读他们的生活，来寻找可能的方向和借鉴的经验，不料</summary>
-        
-      
-    
-    
-    
-    
-    <category term="读记" scheme="https://professorx8.github.io/tags/%E8%AF%BB%E8%AE%B0/"/>
+    <category term="生活" scheme="https://professorx8.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
